@@ -4,6 +4,6 @@ The released version is 0.10.8 , and is signed with the PGP key [96865171](http:
 
 # 校验
 ```
-gpg --recv-keys 96865171
+gpg --keyserver pgp.mit.edu --recv-key 96865171
 gpg --verify --verbose ocserv-0.10.8.tar.xz.sig ocserv-0.10.8.tar.xz
 ```
